@@ -103,10 +103,6 @@ DB_DATABASE=studynexus
 DB_USERNAME=root
 DB_PASSWORD=
 
-# Ollama (optional if using locally)
-OLLAMA_BASE_URL=http://localhost:11434
-```
-
 ### 4. Run Migrations and Seed Data
 ```bash
 php artisan migrate --seed
