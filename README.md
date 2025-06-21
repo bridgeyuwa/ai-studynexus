@@ -70,11 +70,10 @@ Let’s continue building tools that democratize access to knowledge.
 
 Ensure you have the following installed:
 
-- PHP ≥ 8.2  
-- Apache/Nginx server
+- PHP ≥ 8.2   
 - Composer  
 - MySQL  
-- Laravel Herd (optional, recommended for Mac/Windows)  
+- Laravel Herd (optional, recommended for Mac/Windows) or Apache/Nginx server
 - [Ollama](https://ollama.com) with LLaMA 3.2 model installed  
 
 ---
