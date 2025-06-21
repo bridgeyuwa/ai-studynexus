@@ -99,7 +99,7 @@ php artisan key:generate
 
 Update `.env` with your database and Ollama details:
 ```
-DB_DATABASE=databasename
+DB_DATABASE=studynexus
 DB_USERNAME=root
 DB_PASSWORD=
 
