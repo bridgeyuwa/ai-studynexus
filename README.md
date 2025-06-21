@@ -50,20 +50,6 @@ With over 1000 tertiary institutions in Nigeria, getting accurate program info i
 
 ---
 
-## 🔜 Next Steps
-
-- Add more schools and programs  
-- Support for direct entry/JAMB filtering  
-- Mobile-first redesign  
-- Hausa/Igbo/Yoruba translations  
-
-Let’s continue building tools that democratize access to knowledge.  
-
-#3MTTLearningCommunity #My3MTT #NigeriaEdTech #AIForEducation
-
-
-
-
 # 🚀 Running StudyNexus Locally
 
 ## ✅ Prerequisites
