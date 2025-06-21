@@ -71,6 +71,7 @@ Let’s continue building tools that democratize access to knowledge.
 Ensure you have the following installed:
 
 - PHP ≥ 8.2  
+- Apache/Nginx server
 - Composer  
 - MySQL  
 - Laravel Herd (optional, recommended for Mac/Windows)  
