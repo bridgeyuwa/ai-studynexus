@@ -119,6 +119,8 @@ http://localhost:8000
 ---
 ### Check the `database` folder for the SQL files containing the data for studynexus database (database structure and database data)
 
+- `/database/studynexus_data.sql` and `/database/studynexus_structure.sql`
+
 
 Let's build tools that empower education. ✊
 
