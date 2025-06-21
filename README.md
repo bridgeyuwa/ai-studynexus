@@ -114,12 +114,17 @@ php artisan migrate --seed
 php artisan serve
 ```
 
-### 6. Start Ollama with LLaMA 3
+ ### 6. Start Frontend Build (Vite)
+```bash
+npm run dev
+```
+
+### 7. Start Ollama with LLaMA 3
 ```bash
 ollama run llama3
 ```
 
-### 7. Access the App
+### 8. Access the App
 Open your browser and go to:
 ```
 http://localhost:8000
