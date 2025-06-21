@@ -107,7 +107,7 @@ npm run dev
 
 ### 7. Start Ollama with LLaMA 3
 ```bash
-ollama run llama3
+ollama run llama3.2
 ```
 
 ### 8. Access the App
