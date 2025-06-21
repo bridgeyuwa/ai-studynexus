@@ -126,7 +126,7 @@ http://localhost:8000
 ```
 
 ---
-### Check the *database* folder for the SQL files containing the data for studynexus database (database structure and database data)
+### Check the `database` folder for the SQL files containing the data for studynexus database (database structure and database data)
 
 
 Let's build tools that empower education. ✊
