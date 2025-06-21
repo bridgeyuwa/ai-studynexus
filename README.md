@@ -60,3 +60,78 @@ With over 1000 tertiary institutions in Nigeria, getting accurate program info i
 Let’s continue building tools that democratize access to knowledge.  
 
 #3MTTLearningCommunity #My3MTT #NigeriaEdTech #AIForEducation
+
+
+
+
+# 🚀 Running StudyNexus Locally
+
+## ✅ Prerequisites
+
+Ensure you have the following installed:
+
+- PHP ≥ 8.2  
+- Composer  
+- MySQL  
+- Laravel Herd (optional, recommended for Mac/Windows)  
+- [Ollama](https://ollama.com) with LLaMA 3.2 model installed  
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/bridgeyuwa/ai-studynexus.git
+cd ai-studynexus
+```
+
+### 2. Install Dependencies
+```bash
+composer install
+```
+
+### 3. Configure Environment
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+Update `.env` with your database and Ollama details:
+```
+DB_DATABASE=databasename
+DB_USERNAME=root
+DB_PASSWORD=
+
+# Ollama (optional if using locally)
+OLLAMA_BASE_URL=http://localhost:11434
+```
+
+### 4. Run Migrations and Seed Data
+```bash
+php artisan migrate --seed
+```
+
+
+### 5. Start the Laravel Server
+```bash
+php artisan serve
+```
+
+### 6. Start Ollama with LLaMA 3
+```bash
+ollama run llama3
+```
+
+### 7. Access the App
+Open your browser and go to:
+```
+http://localhost:8000
+```
+
+---
+### Check the *database* folder for the SQL files containing the data for studynexus database (database structure and database data)
+
+
+Let's build tools that empower education. ✊
+
