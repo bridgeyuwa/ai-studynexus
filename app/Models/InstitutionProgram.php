@@ -6,42 +6,21 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
 
 class InstitutionProgram extends Pivot
 {   
-
+    // Specify the pivot table name explicitly
     protected $table = 'institution_program';
-	
-    protected $casts = [
-	'updated_at' => 'datetime',
-	'accreditation_grant_date' => 'datetime:Y-m-d',
-	'accreditation_expiry_date' => 'datetime:Y-m-d',
-	];
-	
-	
-	
-	public function accreditationBody() {
-        return $this->belongsTo(AccreditationBody::class);
-    }
-	
-	public function accreditationStatus() {
-        return $this->belongsTo(AccreditationStatus::class);
-    }
-	
-	
-	
-	public function programMode() {
-        return $this->belongsTo(ProgramMode::class);
-    }
-	
-	/* Added because of Nova */
-	public function program() {
+
+    // Define inverse relationship: this pivot belongs to a Program
+    public function program() {
         return $this->belongsTo(Program::class);
     }
-	
-	public function institution() {
+
+    // Define inverse relationship: this pivot belongs to an Institution
+    public function institution() {
         return $this->belongsTo(Institution::class);
     }
-	
-	public function level() {
+
+    // Define inverse relationship: this pivot belongs to a Level
+    public function level() {
         return $this->belongsTo(Level::class);
     }
-	
 }
