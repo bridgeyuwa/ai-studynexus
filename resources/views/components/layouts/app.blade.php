@@ -3,7 +3,7 @@
 
 <head>
     <title>StudyNexus AI Search</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    @vite('resources/css/app.css')
     @livewireStyles
 </head>
 
