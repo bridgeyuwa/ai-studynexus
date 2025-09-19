@@ -1,8 +1,7 @@
 
 # 3MTT Showcase June Edition
----
 # AI - StudyNexus – Your AI-Powered Academic Advisor
-
+---
 ## Author
 - Torkuma Jonathan Yuwa  
 ---
