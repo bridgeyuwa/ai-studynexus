@@ -1,11 +1,10 @@
 
 # 3MTT Showcase June Edition
+---
+# AI - StudyNexus – Your AI-Powered Academic Advisor
 
-**Name:** Torkuma Jonathan Yuwa  
-**Fellow ID:** FE/24/1478283066  
-**Cohort:** 3  
-**Project Name:** StudyNexus – Your AI-Powered Academic Advisor
-
+## Author
+- Torkuma Jonathan Yuwa  
 ---
 
 ## 🎓 Project Summary
