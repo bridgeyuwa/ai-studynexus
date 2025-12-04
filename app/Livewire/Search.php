@@ -95,7 +95,7 @@ class Search extends Component
 
         // Send request to LLM API to format the response
         $response = Http::timeout(60)->post('http://57.131.30.5:11434/api/generate', [
-            'model' => 'llama3.2',
+            'model' => 'deepseek-r1:1.5b',
             'prompt' => "Convert this JSON into a clean response using this format:\n\nInstitution: ...\nProgram: ...\nLevel: ...\n\nUTME Subjects:\n- ...\n\nO Level:\n- ...\n\nDirect Entry:\n- ...\n\nOnly return the result. No comments or extra text then summarize the output.\n\nJSON:\n" . json_encode($structured),
             'stream' => false
         ]);
